@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="pet_gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Unknown</item>
+    </string-array>
+</resources>

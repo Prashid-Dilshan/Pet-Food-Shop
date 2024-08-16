@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <!-- Article Title -->
+    <TextView
+        android:id="@+id/articleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Article Title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryColor"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Article Content -->
+    <TextView
+        android:id="@+id/articleContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the content of the article. It can be as long as needed to fit your content."
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:lineSpacingExtra="4dp"/>
+
+</LinearLayout>

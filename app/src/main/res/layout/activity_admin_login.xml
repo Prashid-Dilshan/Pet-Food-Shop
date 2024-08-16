@@ -1,0 +1,35 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/admin_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Admin Username"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/admin_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Admin Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_below="@id/admin_username"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/admin_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/admin_password"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primaryColor" />
+</RelativeLayout>

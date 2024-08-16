@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Add Food Section -->
+    <EditText
+        android:id="@+id/editTextFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Food Name" />
+
+    <EditText
+        android:id="@+id/editTextFoodPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Food Price" />
+
+    <ImageView
+        android:id="@+id/imageViewFood"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:background="#dddddd" />
+
+    <Button
+        android:id="@+id/buttonChooseImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Image"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonAddFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonDeleteAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete All Foods"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView to Display Added Foods -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFoods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

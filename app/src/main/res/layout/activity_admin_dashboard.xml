@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/admin_dashboard_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Admin Dashboard"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/primaryColor" />
+
+    <!-- Dashboard Buttons Container -->
+    <LinearLayout
+        android:id="@+id/dashboard_buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/admin_dashboard_title"
+        android:layout_marginTop="30dp"
+        android:padding="16dp">
+
+        <!-- Add Food Button -->
+        <Button
+            android:id="@+id/addFoodButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Food"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@color/white"
+            android:padding="10dp" />
+
+        <!-- Add Article Button -->
+        <Button
+            android:id="@+id/addArticleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Article"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Other buttons and UI elements -->
+
+    </LinearLayout>
+
+</RelativeLayout>

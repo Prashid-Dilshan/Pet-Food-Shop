@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+<resources>
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+    <color name="colorAccent">#FF03DAC5</color>
+    <color name="primaryColor">#FF9D2E</color>
+    <color name="secondaryColor">#4CAF50</color>
+    <color name="lavender">#8692f7</color>
+
+        <color name="backgroundColor">#F5F5F5</color>
+        <color name="editTextBackgroundColor">#FFFFFF</color>
+        <color name="editTextTextColor">#000000</color>
+        <color name="editTextHintColor">#888888</color>
+        <color name="white">#FFFFFF</color>
+    <color name="your_hint_color">#FF0000</color>
+
+    <color name="edit_text_background">#eeeeee</color>
+    <color name="edit_text_hint_color">#888888</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
+
+
+
+
+

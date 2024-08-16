@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/create_account_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <!-- Full Name Field -->
+    <EditText
+        android:id="@+id/full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Full Name"
+        android:inputType="textPersonName"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/edit_text_background"
+        android:textColorHint="@color/edit_text_hint_color"
+        android:padding="12dp"
+        android:layout_marginTop="66dp"
+        />
+
+    <!-- Mobile Number Field -->
+    <EditText
+        android:id="@+id/mobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile Number"
+        android:inputType="phone"
+        android:layout_below="@id/full_name"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/edit_text_background"
+        android:textColorHint="@color/edit_text_hint_color"
+        android:padding="12dp"
+
+        />
+
+    <!-- Username Field -->
+    <EditText
+        android:id="@+id/new_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:inputType="textPersonName"
+        android:layout_below="@id/mobile_number"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/edit_text_background"
+        android:textColorHint="@color/edit_text_hint_color"
+        android:padding="12dp"
+        />
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/new_username"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/edit_text_background"
+        android:textColorHint="@color/edit_text_hint_color"
+        android:padding="12dp"
+        />
+
+    <!-- Pet Name Field -->
+    <EditText
+        android:id="@+id/pet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pet Name"
+        android:inputType="text"
+        android:layout_below="@id/new_password"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/edit_text_background"
+        android:textColorHint="@color/edit_text_hint_color"
+        android:padding="12dp"
+        />
+
+    <!-- Pet Gender Field -->
+    <Spinner
+        android:id="@+id/pet_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/pet_gender_options"
+        android:layout_below="@id/pet_name"
+        android:layout_marginBottom="16dp"
+        android:drawablePadding="10dp"
+        android:background="@color/edit_text_background"
+        android:textColorHint="@color/edit_text_hint_color"
+        android:padding="12dp"
+        />
+
+    <!-- Pet Age Field -->
+    <EditText
+        android:id="@+id/pet_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pet Age"
+        android:inputType="number"
+        android:layout_below="@id/pet_gender"
+        android:layout_marginBottom="16dp"
+        android:drawablePadding="10dp"
+        android:background="@color/edit_text_background"
+        android:textColorHint="@color/edit_text_hint_color"
+        android:padding="12dp"
+        />
+
+    <!-- Create Account Button -->
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:layout_below="@id/pet_age"
+        android:backgroundTint="@color/primaryColor"
+        />
+</RelativeLayout>

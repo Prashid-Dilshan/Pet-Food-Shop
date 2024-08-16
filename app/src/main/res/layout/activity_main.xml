@@ -1,0 +1,76 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <!-- Adjust margin as needed -->
+
+    <!-- Admin Login Button -->
+
+    <ImageView
+        android:id="@+id/page_icon"
+        android:layout_width="340dp"
+        android:layout_height="573dp"
+        android:layout_marginTop="-50dp"
+        android:contentDescription="Page Icon"
+        android:src="@drawable/page_icon" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/edit_text_background"
+        android:drawablePadding="10dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColorHint="@color/edit_text_hint_color" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/edit_text_background"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColorHint="@color/edit_text_hint_color" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="@color/primaryColor"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_button"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="@color/primaryColor"
+        android:text="Create Account" />
+
+    <Button
+        android:id="@+id/admin_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:backgroundTint="@color/primaryColor"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>
